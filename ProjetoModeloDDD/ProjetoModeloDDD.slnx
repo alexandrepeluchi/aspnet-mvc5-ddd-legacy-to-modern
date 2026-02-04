@@ -8,6 +8,8 @@
     <Project Path="ProjetoModeloDDD.Domain/ProjetoModeloDDD.Domain.csproj" Id="088af444-2e11-4b8c-b848-c578ba4540b5" />
   </Folder>
   <Folder Name="/4 - Infra/" />
-  <Folder Name="/4 - Infra/4.1 - Data/" />
+  <Folder Name="/4 - Infra/4.1 - Data/">
+    <Project Path="ProjetoModeloDDD.Infra.Data/ProjetoModeloDDD.Infra.Data.csproj" Id="a2daac59-59f0-4498-a64b-34c32f96d625" />
+  </Folder>
   <Folder Name="/4 - Infra/4.2 - CrossCutting/" />
 </Solution>
