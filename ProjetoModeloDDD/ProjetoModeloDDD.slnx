@@ -1,10 +1,12 @@
 <Solution>
   <Folder Name="/0 - Presentation/">
-    <Project Path="ProjetoModeloDDD.MVC/ProjetoModeloDDD.MVC.csproj" />
+    <Project Path="ProjetoModeloDDD.MVC/ProjetoModeloDDD.MVC.csproj" Id="1f0a9e43-e580-4b2f-bd90-b3ca62904b32" />
   </Folder>
   <Folder Name="/1 - Services/" />
   <Folder Name="/2 - Application/" />
-  <Folder Name="/3 - Domain/" />
+  <Folder Name="/3 - Domain/">
+    <Project Path="ProjetoModeloDDD.Domain/ProjetoModeloDDD.Domain.csproj" Id="088af444-2e11-4b8c-b848-c578ba4540b5" />
+  </Folder>
   <Folder Name="/4 - Infra/" />
   <Folder Name="/4 - Infra/4.1 - Data/" />
   <Folder Name="/4 - Infra/4.2 - CrossCutting/" />
