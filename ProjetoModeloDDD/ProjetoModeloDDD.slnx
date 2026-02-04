@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/0 - Presentation/">
+    <Project Path="ProjetoModeloDDD.MVC/ProjetoModeloDDD.MVC.csproj" />
+  </Folder>
+  <Folder Name="/1 - Services/" />
+  <Folder Name="/2 - Application/" />
+  <Folder Name="/3 - Domain/" />
+  <Folder Name="/4 - Infra/" />
+  <Folder Name="/4 - Infra/4.1 - Data/" />
+  <Folder Name="/4 - Infra/4.2 - CrossCutting/" />
+</Solution>
