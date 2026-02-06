@@ -51,15 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityConfig\ClienteConfiguration.cs" />
     <Compile Include="Migrations\202602051837034_Initial.cs" />
     <Compile Include="Migrations\202602051837034_Initial.Designer.cs">
       <DependentUpon>202602051837034_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202602061643200_UpdateClienteConfig.cs" />
+    <Compile Include="Migrations\202602061643200_UpdateClienteConfig.Designer.cs">
+      <DependentUpon>202602061643200_UpdateClienteConfig.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EntityConfig\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +82,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202602051837034_Initial.resx">
       <DependentUpon>202602051837034_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202602061643200_UpdateClienteConfig.resx">
+      <DependentUpon>202602061643200_UpdateClienteConfig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
