@@ -61,6 +61,10 @@
     <Compile Include="Migrations\202602061643200_UpdateClienteConfig.Designer.cs">
       <DependentUpon>202602061643200_UpdateClienteConfig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202602071915056_AddProduto.cs" />
+    <Compile Include="Migrations\202602071915056_AddProduto.Designer.cs">
+      <DependentUpon>202602071915056_AddProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -86,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202602061643200_UpdateClienteConfig.resx">
       <DependentUpon>202602061643200_UpdateClienteConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202602071915056_AddProduto.resx">
+      <DependentUpon>202602071915056_AddProduto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
