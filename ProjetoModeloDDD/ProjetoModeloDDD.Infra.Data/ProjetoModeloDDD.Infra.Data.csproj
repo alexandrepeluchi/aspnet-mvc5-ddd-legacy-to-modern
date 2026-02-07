@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityConfig\ClienteConfiguration.cs" />
+    <Compile Include="EntityConfig\ProdutoConfiguration.cs" />
     <Compile Include="Migrations\202602051837034_Initial.cs" />
     <Compile Include="Migrations\202602051837034_Initial.Designer.cs">
       <DependentUpon>202602051837034_Initial.cs</DependentUpon>
