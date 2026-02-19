@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
 using ProjetoModeloDDD.Domain.Interfaces;
 using ProjetoModeloDDD.Infra.Data.Context;
 
@@ -11,27 +13,31 @@ namespace ProjetoModeloDDD.Infra.Data.Repositories
 
         public void Add(TEntity obj)
         {
-            throw new NotImplementedException();
+            DbContext.Set<TEntity>().Add(obj);
+
+            DbContext.SaveChanges();
         }
 
         public IEnumerable<TEntity> GetAll()
         {
-            throw new NotImplementedException();
+            return DbContext.Set<TEntity>().ToList();
         }
 
         public TEntity GetById(int id)
         {
-            throw new NotImplementedException();
+            return DbContext.Set<TEntity>().Find(id);
         }
 
         public void Remove(TEntity obj)
         {
-            throw new NotImplementedException();
+            DbContext.Set<TEntity>().Remove(obj);
+            DbContext.SaveChanges();
         }
 
         public void Update(TEntity obj)
         {
-            throw new NotImplementedException();
+            DbContext.Entry(obj).State = EntityState.Modified;
+            DbContext.SaveChanges();
         }
         public void Dispose()
         {
